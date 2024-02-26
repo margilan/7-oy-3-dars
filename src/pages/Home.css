@@ -1,0 +1,22 @@
+.card img{
+    height: 200px;
+    cursor: pointer;
+    border-radius:12px;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px lightgray;
+}
+.card{
+    transition: all 0.5s;
+    width: 100px;
+    margin-top: 100px;
+}
+body{
+    background-image: url(../assets/Home.jpg);
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+}
